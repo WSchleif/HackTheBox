@@ -1,5 +1,4 @@
 title: "My Blog"
-description: "A blog powered by Jekyll and GitHub Pages"
-baseurl: "" # Leave empty for user/organization site, set to /repo-name for project site
-url: "https://wschleif.github.io/HackTheBox" # Your repository URL
+baseurl: "/HackTheBox"    # <-- Add or update this line to match your repo name, WITH the leading slash
+url: "https://wschleif.github.io"
 theme: minima
