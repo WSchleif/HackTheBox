@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Your Post Title"
+title:  "Read This"
 date:   2025-07-08 17:52:42 +0000
 categories: blog
 ---
