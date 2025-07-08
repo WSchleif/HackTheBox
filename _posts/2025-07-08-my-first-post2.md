@@ -6,3 +6,4 @@ categories: blog
 ---
 
 Your content goes here in Markdown!
+YOu should be able to read this.
