@@ -1,4 +1,4 @@
-title: "My Blog"
+title: "My HackTheBox Lab Explanations"
 baseurl: "/HackTheBox"    # <-- Add or update this line to match your repo name, WITH the leading slash
 url: "https://wschleif.github.io"
 theme: minima
