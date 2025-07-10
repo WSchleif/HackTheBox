@@ -34,7 +34,9 @@ Task 4: Add and Remove Computers to the Domain
   In the AD Service Manager, I navigated back to the Active Directory Users and Computers.  I added a new computer and moved it to the Security Analysts OU created in Task 2 for the new users to utilize and be able to log into.  
 
 Security Outcomes: 
-
+Deleting inactive accounts reduced the attack surface, per NIST 800-53 (AC-2).
+RBAC via groups and OUs ensured least privilege access.
+GPO policies mitigated risks of unauthorized device usage and weak passwords.
   
 Lessons Learned:
-  
+  This lab challenged me to master Active Directory (AD) management, a critical skill for implementing secure identity and access controls. Initially, I encountered PowerShell errors when creating users (e.g., incorrect syntax in New-ADUser commands), which I resolved by debugging the code and verifying parameters against Microsoft documentation, reinforcing my GSEC-trained attention to detail. Troubleshooting a Group Policy Object (GPO) that failed to apply due to incorrect OU linkage taught me the importance of precise configuration to enforce role-based access control (RBAC), aligning with NIST 800-53 standards. This experience strengthened my ability to manage secure access, mitigate risks through policy enforcement, and communicate technical processes clearly, leveraging my teaching background to document procedures effectively for diverse stakeholders.
