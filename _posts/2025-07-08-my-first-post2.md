@@ -1,9 +1,15 @@
 ---
 layout: post
-title:  "Read This"
+title:  "AD Administration Lab"
 date:   2025-07-08 17:52:42 +0000
 categories: blog
 ---
 
-Your content goes here in Markdown!
-YOu should be able to read this.
+Site: Hack the Box
+Activity: Lab
+Date: 7/10/2025
+
+Summary: 
+
+Actions Taken: 
+1) 
