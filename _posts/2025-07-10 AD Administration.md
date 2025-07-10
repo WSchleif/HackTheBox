@@ -6,7 +6,9 @@ categories: blog
 ---
 
 Site: Hack the Box
+
 Activity: Lab
+
 Date: 7/10/2025
 
 Summary: 
