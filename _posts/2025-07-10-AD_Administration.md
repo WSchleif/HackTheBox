@@ -9,8 +9,6 @@ categories: blog
 
 **Activity:** Lab
 
-**Date:** 7/10/2025
-
 **Objective:**\
 Simulate IAM tasks in a Windows AD environment to secure user access and enforce policies.
 
