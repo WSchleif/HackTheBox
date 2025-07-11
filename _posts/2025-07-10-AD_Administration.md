@@ -19,16 +19,16 @@ PowerShell, xfreerdp, Active Directory Users and Computers, Group Policy Managem
 Leveraging my GSEC and GCIH certifications, I completed a Hack The Box lab to manage user accounts, groups, Group Policy Objects (GPOs), and computers in a Windows Server 2022 AD environment. Tasks included provisioning users, configuring RBAC via groups and OUs, enforcing secure GPOs, and auditing access, follwing requirements for secure identity management and log auditing per NIST 800-53.
 
 **Actions Taken:**\
-</ins>Task 1: Manage Users</ins>\
+<ins>Task 1: Manage Users</ins>\
   I opened PowerShell and used xfreerdp to connect to a AD connected Windows machine using the following PowerShell code: 
   <img width="1232" height="27" alt="image" src="https://github.com/user-attachments/assets/af5336fd-e439-4681-b669-099b5d6457b6" />
 
   Once logged into to the Windows Machine, I navigated to the AD Service Manager to add 3 new users using the GUI.  I then searched for inactive users and deleted their accounts using the find function because I was not given information on which department these 2 employees were working in before they left the company.  Finally, I had to resolve a user ticket.  I used the find function to locate a user who had locked their account and reset their password and unlocked their account, ensuring they were required to change their password on their next login.
 
-</ins>Task 2: Manage Groups and Other Organizational Units</ins>\
+<ins>Task 2: Manage Groups and Other Organizational Units</ins>\
   In the AD Service Manager, I navigated to the correct path to add a new Organizational Unit.  Within the new OU, I added a new user group with a local domain group scope and a security group type.  I proceeded to add the 3 new users I created in Task 1 to the new user group.  
 
-</ins>Task 3: Manage Group Policy Objects</ins>\
+<ins>Task 3: Manage Group Policy Objects</ins>\
   In the AD Service Manager, I navigated to the Group Policies window.  I navigated to the correct path to copy an existing Group Policy Obiject and rename it for the new OU created in Task 2.  Once created, I edited some of the policies within the Group Policy Object to enable the command line prompt and disable all removable storage classes.  I then updated the password policy for the new Group Policy Object by making the minimum length longer than the default and enforcing password history to ensure new passwords are not repeated when making new ones.  
 
 <ins>Task 4: Add and Remove Computers to the Domain</ins>\
