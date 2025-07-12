@@ -65,10 +65,36 @@ I remotely connected to a target machine, where I enable monitoring mode to scan
 
 **Security Outcomes:** 
 -
-1) The Wi-Fi network was compromised
-2) The Wi-Fi password was not strong enough to withstand password cracking using Hashcat
-3) The flag was retrieved after gaining access to the wireless network and navigating to 192.168.1.1
+This challenge highlighted critical vulnerabilities in WPA-protected wireless networks and their implications for organizational security. Key outcomes include:
+
+* Vulnerability Identification: The successful capture and cracking of the WPA handshake exposed the risks of weak passwords, particularly those susceptible to dictionary attacks. This underscores the need for organizations to enforce strong, complex passphrases to mitigate brute-force attacks.
+
+* Attack Vector Analysis: The deauthentication attack demonstrated how attackers can exploit client-AP interactions to capture handshakes. This insight emphasizes the importance of monitoring for unauthorized deauthentication attempts and implementing intrusion detection systems to alert on suspicious activity.
+
+* Mitigation Recommendations: To secure wireless networks against similar attacks, organizations should:
+
+  * Use strong, unique WPA2/WPA3 passphrases (at least 12 characters, avoiding common words).
+
+  * Disable WPS (Wi-Fi Protected Setup) to prevent alternative attacks like Pixie Dust.
+
+  * Implement MAC address filtering or enterprise-grade authentication (e.g., WPA2-Enterprise with RADIUS) for enhanced security.
+
+  * Regularly audit network configurations to detect misconfigurations or weak encryption protocols.
+
+* Broader Security Implications: This exercise highlighted the importance of a defense-in-depth approach, combining strong password policies, network monitoring, and user education to reduce the attack surface. As a security professional, I can apply these insights to assess and strengthen wireless network configurations in enterprise environments.
+
+By completing this challenge, I demonstrated my ability to identify, exploit, and propose mitigations for wireless network vulnerabilities, skills directly applicable to roles in penetration testing and network security.
   
 **Lessons Learned:**
 -  
-I learned that using sudo in front of commands in Linux is often necessary to run them, as many require sudo access to execute.  I had to research how to successfully scan, deauthenticate, and force reconnect a client to a Wi-Fi access point to obtain the handshake.  I also had to research how to convert the .cap file to the correct format to use with Hashcat and crack the password.  
+This HackTheBox challenge provided a hands-on opportunity to deepen my understanding of wireless network security and penetration testing methodologies. Key takeaways include:
+
+* Proficiency with Industry-Standard Tools: I gained practical experience using the aircrack-ng suite (airodump-ng, aireplay-ng, aircrack-ng) to perform wireless network reconnaissance, packet capture, and password cracking. This reinforced my ability to select and apply appropriate tools for specific attack vectors, a critical skill in penetration testing.
+
+* Attention to Detail in Packet Analysis: Capturing a valid WPA handshake required precise configuration of tools (e.g., setting the correct channel and BSSID) and careful monitoring of packet captures. This process honed my ability to analyze network traffic and troubleshoot issues, such as ensuring the Wi-Fi adapter was in monitor mode.
+
+* Strategic Problem-Solving: The challenge demanded a systematic approach, from scanning for access points to executing a deauthentication attack and cracking the password. This strengthened my ability to break down complex problems into manageable steps, a valuable skill for assessing and exploiting vulnerabilities in real-world environments.
+
+* Ethical Hacking Mindset: Conducting this attack in a controlled environment underscored the importance of ethical considerations in cybersecurity. I ensured all actions complied with HackTheBox’s guidelines, reinforcing my commitment to responsible and authorized testing practices.
+
+These lessons have enhanced my technical expertise and prepared me to tackle real-world wireless security assessments with confidence and precision.
