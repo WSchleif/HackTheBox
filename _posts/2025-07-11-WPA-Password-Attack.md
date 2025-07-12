@@ -24,7 +24,7 @@ xfreerdp, airmon-ng, airodump-ng, aireplay-ng, hcspcapngtool, hashcat
 
 **Summary:**
 -
-I remotely connected to a target machine, where I enable monitoring mode to scan for available Wi-Fi networks.  I executed a deauthentication attack on the client found and forced a reconnect to the access point, at which I saved the handshake to a .cap file.  I converted the .cap file to the correct format to use with Hashcat, where I then utilized Hashcat to crack the password hash and reveal the plain-text password.  Using the password, I successfully connected to the access point and retrieved a flag at 192.168.1.1.  
+In this HackTheBox challenge, I conducted a wireless penetration test to capture and crack a WPA password, demonstrating proficiency in network security assessment. Using the aircrack-ng suite, I successfully scanned for access points, captured a WPA handshake through a targeted deauthentication attack, and cracked the password with a dictionary attack. This exercise showcased my skills in packet analysis, strategic problem-solving, and the use of industry-standard tools while adhering to ethical hacking principles. The outcome highlighted the critical need for strong password policies to mitigate brute-force vulnerabilities, reinforcing my ability to identify and address real-world security risks. This project reflects my readiness to contribute to cybersecurity roles by delivering thorough and responsible vulnerability assessments. 
 
 **Actions Taken:**
 -
