@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Intro to Splunk and SPL"
+title:  "WPA Password Attack"
 date:   2025-07-11 00:00:00 +0000
 categories: blog
 ---
