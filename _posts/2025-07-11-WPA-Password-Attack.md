@@ -19,7 +19,7 @@ To gain access to a password-protected Wi-Fi network and retrieve a flag located
 
 **Tools Used:**
 -
-xfreerdp, airmon-ng, hashcat
+xfreerdp, airmon-ng, airodump-ng, aireplay-ng, hcspcapngtool, hashcat
 
 
 **Summary:**
