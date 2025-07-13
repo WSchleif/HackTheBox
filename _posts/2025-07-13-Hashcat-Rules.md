@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Password Cracking using Hashcat Rules"
-date:   2025-07-13 00:00:00 +0000
+date:   2025-07-13 23:59:00 +0000
 categories: blog
 ---
 
